@@ -1,0 +1,93 @@
+﻿@model ISU_By_DBugSolutions.Models.Parent
+
+@{
+    ViewData["Title"] = "Parent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h4 class="text-secondary">Parent</h4>
+<h1 class="text-secondary">Edit</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ParentID" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <input type="radio" asp-for="Gender" name="Gender" value="M" />Male
+                <input type="radio" asp-for="Gender" name="Gender" value="F" />Female
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactNo" class="control-label"></label>
+                <input asp-for="ContactNo" class="form-control" />
+                <span asp-validation-for="ContactNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile" class="control-label"></label>
+                <input asp-for="ImageFile" type="file" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="houseNo" class="control-label"></label>
+                <input asp-for="houseNo" class="form-control" />
+                <span asp-validation-for="houseNo" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="streetName" class="control-label"></label>
+                <input asp-for="streetName" class="form-control" />
+                <span asp-validation-for="streetName" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SuburbName" class="control-label"></label>
+                <input asp-for="SuburbName" class="form-control" />
+                <span asp-validation-for="SuburbName" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CityName" class="control-label"></label>
+                <input asp-for="CityName" class="form-control" />
+                <span asp-validation-for="CityName" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProvinceName" class="control-label"></label>
+                <select asp-for="ProvinceName" class="form-control" asp-items="@(new SelectList(@ViewBag.listOfProvs,"ProvinceName","ProvinceName"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="ProvinceName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+                <input type="submit" value="Save" class="btn btn-submit-1" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

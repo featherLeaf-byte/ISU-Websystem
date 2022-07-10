@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ISU_By_DBugSolutions.Models.Video>
+
+@{
+    ViewData["Title"] = "Videos";
+}
+
+
+
+<!--Video-Index-->
+<div class="movie-panel pt-4">
+    <img class="mb-3" src="~/Images/videos-header.png" alt="Videos" width="300" />
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert"> <strong>Success!</strong> Video Successfully added.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+    }
+    <p class="h2">
+        <a asp-action="Create" class="text-secondary"><i class='bx bx-video-plus shake'></i><span class="badge badge-secondary h1 bg-anim">Add New</span></a>
+    </p>
+    <hr />
+    <div class="container">
+        <!--First Row-->
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm">
+                    <div class="video-container">
+                        <a asp-action="Details" asp-route-id="@item.VideoId">
+                            <div class="cover-block">
+                            </div>
+                        </a>
+                        <div class="cover-text">
+                            <div class="video-name">@Html.DisplayFor(model => item.Title)</div>
+                            <div class="video-year">@item.Year</div>
+                        </div>
+                        <div>
+                            <a asp-action="Details" asp-route-id="@item.VideoId">
+                                <button class="btn-video-play">Watch</button>
+                            </a>
+
+                        </div>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Delete" asp-route-id="@item.VideoId">
+                                <button class="btn-video-delete">Delete</button>
+                            </a>
+                        }
+
+
+                    </div>
+                </div>
+            }
+        </div>
+
+
+    </div>
+</div>
+    

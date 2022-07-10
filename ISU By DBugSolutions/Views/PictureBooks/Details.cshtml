@@ -1,0 +1,35 @@
+﻿@model ISU_By_DBugSolutions.Models.PictureBook
+
+@{
+    ViewData["Title"] = "Let's Read";
+}
+
+<img class="mb-3" src="~/Images/picture-book-header.png" alt="Picture Book" width="400" />
+
+<div class="container">
+    <h2>Let's Read!</h2>
+    <hr />
+ 
+     
+         
+        <h5 class="text-secondary">
+            @Html.DisplayFor(model => model.Title)
+        </h5>
+          
+        <h5 class="text-secondary">
+            @Html.DisplayFor(model => model.Author)
+        </h5>
+           
+        <h6 class="text-secondary">
+            @Html.DisplayFor(model => model.Synopsis)
+        </h6>
+               
+        <div class="container-fluid">
+            <iframe src="/Book/@(Model.BookFileName)" width="100%" height="800px">
+            </iframe>
+        </div>
+    </div>
+
+<div>
+    <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+</div>

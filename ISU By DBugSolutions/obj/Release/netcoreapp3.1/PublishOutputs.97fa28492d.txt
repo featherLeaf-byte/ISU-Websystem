@@ -1,0 +1,292 @@
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ISU By DBugSolutions.exe
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\001-HIDE-AND-SEEK-Free-Childrens-Book-By-Monkey-Pen213612924.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\002-GINGER-THE-GIRAFFE-Free-Childrens-Book-By-Monkey-Pen214527211.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\003-DOING_MY_CHORES-Free-Childrens-Book-By-Monkey-Pen214656010.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\004-ABE-THE-SERVICE-DOG-Free-Childrens-Book-By-Monkey-Pen214759748.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\005-SUNNY-MEADOWS-WOODLAND-SCHOOL-Free-Childrens-Book-By-Monkey-Pen210955867.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\005-SUNNY-MEADOWS-WOODLAND-SCHOOL-Free-Childrens-Book-By-Monkey-Pen214941764.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\008-THE-CASE-OF-THE-MISSING-SMILE213016828.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\childhood.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Book\safety.pdf
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\custom\style-1.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\custom\style-2.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\custom\style.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\site.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ECDCImages\0fa6106eabdf147ead1eb79ded7a8e74213938595.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ECDCImages\146089166_3663234730389158_2646823680490991785_o211049393.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ECDCImages\main-qimg-cf89e8e6daa9dabc8174c303e4d53d3a211112432.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ECDCImages\_MG_6117211649862.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ECDCImages\_MG_6117211812681.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ECDCImages\_MG_6123212459534.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ECDCImages\_MG_6124213003135.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fav\favicon.ico
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\AnimalSounds\Build\AnimalSounds.data
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\AnimalSounds\Build\AnimalSounds.framework.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\AnimalSounds\Build\AnimalSounds.loader.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\AnimalSounds\Build\AnimalSounds.wasm
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Drag And Drop\Build\Drag And Drop.data
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Drag And Drop\Build\Drag And Drop.framework.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Drag And Drop\Build\Drag And Drop.loader.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Drag And Drop\Build\Drag And Drop.wasm
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Jiggsaw Game\Build\KidsPuzzle.data
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Jiggsaw Game\Build\KidsPuzzle.framework.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Jiggsaw Game\Build\KidsPuzzle.loader.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Jiggsaw Game\Build\KidsPuzzle.wasm
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Puzzle Game\Build\Puzzle.data
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Puzzle Game\Build\Puzzle.framework.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Puzzle Game\Build\Puzzle.loader.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Puzzle Game\Build\Puzzle.wasm
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Quiz Game\Quiz.data
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Quiz Game\Quiz.framework.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Quiz Game\Quiz.loader.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Games\Quiz Game\Quiz.wasm
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\aboutus-back.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\back-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\books-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\c-image-001.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\c-image-002.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\c-image-003.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\creche-header-2.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\creche-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\enquiry-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\error-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\footer-logo.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\games-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\games-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\image-006.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\image5.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\isu-poster-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\isu-video.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\isu-videoplayer-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\ISU003.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\ISU004.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\meal-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\meal=schedule-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\med-hist-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\meeting-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\menu-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\navigation-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\news-icon.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\picture-book-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\Profile-Avatar.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\profile-security.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\story-block1.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\story-block2.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\story-block3.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\videos-header.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\WIN_20210421_15_48_14_Pro214619246.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\WIN_20210423_08_27_39_Pro213423491.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\_MG_6097210342096.jpg
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\chat.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\chat.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\CustomScript.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\signrReqHandler.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\site.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\LICENSE
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery-validation\LICENSE.md
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery-unobtrusive-ajax.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.unobtrusive-ajax.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\signalr\signalr.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\signalr\signalr.js.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\signalr\signalr.min.js
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\signalr\signalr.min.js.map
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Spreadsheet\credit-account-register211341273.xlsx
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Spreadsheet\income-statement215137579.xlsx
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\favicon.ico
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\fullscreen-button.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\progress-bar-empty-dark.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\progress-bar-empty-light.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\progress-bar-full-dark.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\progress-bar-full-light.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\style.css
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\unity-logo-dark.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\unity-logo-light.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\TemplateData\webgl-logo.png
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\Early Childhood Education - The Research212702916.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\Early Childhood Education - The Research212708454.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\Froebel’s Kindergarten_ The Origins of Early Childhood Education211200958.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\Froebel’s Kindergarten_ The Origins of Early Childhood Education_2211108020.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\Froebel’s Kindergarten_ The Origins of Early Childhood Education_2211108020214824292.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\What is Early Childhood Development212545529.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\What is Early Childhood Development212642021.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\Why Preschool is So Important_2211034913.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Video\Why Preschool is So Important_2211034913214905313.mp4
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\nlog.config
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\libman.json
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ISU By DBugSolutions.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ISU By DBugSolutions.runtimeconfig.json
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ISU By DBugSolutions.pdb
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\EasyData.Core.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Korzh.EasyQuery.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Korzh.EasyQuery.Linq.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Net.Http.Formatting.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Web.Http.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNet.WebHooks.Common.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.HashCode.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.Razor.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Data.SqlClient.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.Binder.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Identity.Core.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Identity.Stores.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Logging.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Options.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Primitives.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Identity.Client.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.TeamFoundation.Common.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Services.Common.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Services.WebApi.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\dotnet-aspnet-codegenerator-design.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.Bson.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\NLog.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\NLog.Extensions.Logging.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\NLog.Web.AspNetCore.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\NuGet.Frameworks.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Syncfusion.Compression.Portable.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Syncfusion.Licensing.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\Syncfusion.Pdf.Portable.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Collections.Immutable.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.AttributedModel.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.Convention.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.Hosting.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.Runtime.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.TypedParts.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Data.SqlClient.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Net.WebSockets.WebSocketProtocol.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Runtime.Caching.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Xml.XPath.XmlDocument.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\it\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x64\native\sni.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x86\native\sni.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ISU By DBugSolutions.Views.dll
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ISU By DBugSolutions.Views.pdb
+E:\Sidley's Project\ISU\ISU By DBugSolutions\obj\Release\netcoreapp3.1\PubTmp\Out\ISU By DBugSolutions.deps.json

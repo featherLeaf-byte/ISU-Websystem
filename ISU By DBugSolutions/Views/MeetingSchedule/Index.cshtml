@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ISU_By_DBugSolutions.Models.MeetingSchedule>
+
+@{
+    ViewData["Title"] = "Meeting Schedule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<img class="mb-3" src="~/Images/meeting-header.png" alt="Meetings List" width="400" />
+
+<p class="h4">
+    <a asp-action="Create" class="text-secondary"><i class="bx bxs-plus-square h1 shake"></i><span class="badge badge-secondary h1 bg-anim">Add New</span></a>
+</p>
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert"> <strong>Success!</strong> Meeting Successfully scheduled.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+}
+<table class="table">
+
+    <tbody>
+        @foreach (var item in Model.OrderByDescending(m => m.Date))
+        {
+
+            <tr>
+                <td>
+                    <div class="info-block-2 bg-dark">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-9 text-light pl-5">
+
+                                    <p class="text-secondary">
+                                        @Html.DisplayNameFor(model => model.Scheduler): &nbsp;
+                                        @Html.DisplayFor(modelItem => item.Scheduler)
+                                    </p>
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.Venue): &nbsp; @Html.DisplayFor(modelItem => item.Venue)
+                                    </p>
+
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.Subject): &nbsp; @Html.DisplayFor(modelItem => item.Subject)
+                                    </p>
+
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.Details): &nbsp; @Html.DisplayFor(modelItem => item.Details)
+                                    </p>
+
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.Date): &nbsp; @Html.DisplayFor(modelItem => item.Date)
+                                    </p>
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.StartTime): &nbsp; @Html.DisplayFor(modelItem => item.StartTime)
+                                    </p>
+
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.EndTime): &nbsp; @Html.DisplayFor(modelItem => item.EndTime)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MeetingScheduleID" class="text-primary h2"><i class='bx bxs-edit'></i></a>
+                    <a asp-action="Details" asp-route-id="@item.MeetingScheduleID" class="text-secondary h2"><i class='bx bx-list-ul'></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.MeetingScheduleID" class="text-danger h2"><i class='bx bx-trash'></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@{Html.BeginForm("CreateDocument", "MeetingSchedule", FormMethod.Get);
+    {
+        <div>
+            <button type="submit" value="Create Document" class="btn-video-play"> <i class='bx bxs-printer'></i>&nbsp;Print</button>
+
+        </div>
+    }
+    Html.EndForm();
+}

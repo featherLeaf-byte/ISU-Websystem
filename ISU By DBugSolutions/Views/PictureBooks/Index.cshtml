@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ISU_By_DBugSolutions.Models.PictureBook>
+
+@{
+    ViewData["Title"] = "Picture Book";
+}
+
+
+<div class="container pt-5">
+    <img class="mb-3" src="~/Images/picture-book-header.png" alt="Creche List" width="400" />
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert"> <strong>Success!</strong> Picture Book Successfully added.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+    }
+    <p class="h2">
+        <a asp-action="Create" class="text-secondary"><i class='bx bx-book-add shake'></i><span class="badge badge-secondary h1 bg-anim">Add New</span></i></a>
+    </p>
+    
+    <hr />
+    <div class="info-block-2">
+        <div class="container-fluid">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4">
+                        <h3>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </h3>
+                        <p>
+                            <img class="info-block-3" src="/Images/books-icon.png" />
+                        </p>
+                        <p>
+                            <a asp-action="Details" asp-route-id="@item.PictureBookId">
+                                <button class="btn-video-play">Read</button>
+                            </a>
+                        </p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+</div>

@@ -1,0 +1,40 @@
+﻿@model ISU_By_DBugSolutions.Models.Disease
+
+@{
+    ViewData["Title"] = "Disease";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Disease</h1>
+
+<h4><i>Edit details</i></h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            
+            <input type="hidden" asp-for="DiseaseID" />
+            <div class="form-group">
+                <label asp-for="DiseaseName" class="control-label"></label>
+                <input asp-for="DiseaseName" class="form-control" />
+                <span asp-validation-for="DiseaseName" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+                <input type="submit" value="Save" class="btn btn-submit-1" />
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

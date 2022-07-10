@@ -1,0 +1,133 @@
+﻿@model IEnumerable<ISU_By_DBugSolutions.Models.Enquiry>
+
+@{
+    ViewData["Title"] = "Enquiries";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    Pager pager = new Pager();
+    int pageNo = 0;
+
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+    int intSno = 0;
+
+}
+
+<img class="mb-3" src="~/Images/enquiry-header.png" alt="Videos" width="300" />
+
+
+<hr />
+
+<div class="col-4 p-0 justify-content-end">
+    <form asp-controller="Enquiry" asp-action="Index" class="form-inline">
+        <input class="form-control mr-sm-2" type="text" name="SearchText" placeholder="Search..." />
+        <button class="btn btn-submit my-2 my-sm-0" type="submit" value="Search">
+            Search
+        </button>
+    </form>
+</div>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+      
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            intSno = intSno + 1;
+            <tr>
+            
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subject)
+                </td>
+
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.EnquiryID" class="text-secondary h2"><i class='bx bx-list-ul'></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.EnquiryID" class="text-danger h2"><i class='bx bx-trash'></i></a>
+
+                    <a class="h1 text-secondary" href="mailto: @item.Email" title="Reply via Email">
+                        <i class='bx bx-reply'></i>
+                    </a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@{Html.BeginForm("CreateDocument", "Enquiry", FormMethod.Get);
+    {
+        <div>
+            <button type="submit" value="Create Document" class="btn-video-play"> <i class='bx bxs-printer'></i>&nbsp;Print</button>
+
+        </div>
+    }
+    Html.EndForm();
+}
+<div class="container">
+    @if (pager.TotalPages > 0)
+    {
+        <ul class="pagination justify-content-end">
+
+            @if (pager.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-controller="Enquiry" asp-action="Index" asp-route-pg="1">First</a>
+                </li>
+                <li>
+                    <a class="page-link" asp-controller="Enquiry" asp-action="Index" asp-route-pg="@(pager.CurrentPage-1)">Previous</a>
+                </li>
+            }
+
+
+
+            @for (var pge = pager.StartPage; pge <= pager.EndPage; pge++)
+            {
+                <li class="page-item @(pge == pager.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-controller="Enquiry" asp-action="Index" asp-route-pg="@pge">@pge</a>
+                </li>
+            }
+
+            @if (pager.CurrentPage < pager.TotalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-controller="Enquiry" asp-action="Index" asp-route-pg="@(pager.CurrentPage+1)">Next</a>
+                </li>
+                <li>
+                    <a class="page-link" asp-controller="Enquiry" asp-action="Index" asp-route-pg="@(pager.TotalPages)">Last</a>
+                </li>
+            }
+
+
+        </ul>
+    }
+</div>

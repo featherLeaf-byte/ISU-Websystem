@@ -1,0 +1,31 @@
+﻿@model ISU_By_DBugSolutions.Models.Surgery
+
+@{
+    ViewData["Title"] = "Surgery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-secondary">Surgery - Details</h1>
+<hr />
+<div>
+    <h4>Surgery</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SurgeryName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SurgeryName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+
+</div>

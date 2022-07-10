@@ -1,0 +1,81 @@
+﻿@model ISU_By_DBugSolutions.Models.MedicalHistory
+
+@{
+    ViewData["Title"] = "Medical History";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<img class="mb-3" src="~/Images/med-hist-header.png" alt="Videos" width="300" />
+
+<div class="alert alert-secondary alert-dismissible fade show" role="alert"> Complete form and submit to add medical history.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PupilName" class="control-label"></label>
+                <select asp-for="PupilName" class="form-control" asp-items="@(new SelectList(@ViewBag.listOfPupils,"FirstName","FirstName"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="PupilName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PupilSurname" class="control-label"></label>
+                <select asp-for="PupilSurname" class="form-control" asp-items="@(new SelectList(@ViewBag.listOfPupils,"LastName","LastName"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="PupilSurname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" type="date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiseaseName" class="control-label"></label>
+                <select asp-for="DiseaseName" class="form-control" asp-items="@(new SelectList(@ViewBag.listOfDiseases,"DiseaseName","DiseaseName"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="DiseaseName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SurgeryName" class="control-label"></label>
+                <select asp-for="SurgeryName" class="form-control" asp-items="@(new SelectList(@ViewBag.listOfSurgeries,"SurgeryName","SurgeryName"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="SurgeryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AllergyName" class="control-label"></label>
+                <select asp-for="AllergyName" class="form-control" asp-items="@(new SelectList(@ViewBag.listOfAllergies,"AllergyName","AllergyName"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="AllergyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DoctorName" class="control-label"></label>
+                <select asp-for="DoctorName" class="form-control" asp-items="@(new SelectList(@ViewBag.listOfDoctors,"FirstName","FirstName"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="DoctorName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MedicationName" class="control-label"></label>
+                <select asp-for="MedicationName" class="form-control" asp-items="@(new SelectList(@ViewBag.listOfMedications,"MedicationName","MedicationName"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="MedicationName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-submit-1" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

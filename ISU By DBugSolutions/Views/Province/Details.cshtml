@@ -1,0 +1,25 @@
+﻿@model ISU_By_DBugSolutions.Models.Province
+
+@{
+    ViewData["Title"] = "Province";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-secondary">Province - Details</h1>
+<hr />
+<div>
+    <h4>Province</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ProvinceName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProvinceName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+
+</div>

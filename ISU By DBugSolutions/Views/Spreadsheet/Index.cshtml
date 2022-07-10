@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ISU_By_DBugSolutions.Models.Spreadsheet>
+
+@{
+    ViewData["Title"] = "Spreadsheet";
+}
+
+
+<div class="container pt-5">
+    <h1 class="text-secondary">
+        Spreadsheet
+    </h1>
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert"> <strong>Success!</strong> Spreadsheet Successfully added.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+    }
+    <p class="h2">
+        <a asp-action="Create" class="text-secondary"><i class='bx bx-spreadsheet shake'></i><span class="badge badge-secondary h1 bg-anim">Add New</span></a>
+    </p>
+
+    <hr />
+    <div class="info-block-2">
+        <div class="container-fluid">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4">
+                        <h3>
+                            @Html.DisplayFor(modelItem => item.SheetName)
+                        </h3>
+                        <p>
+                            <img class="info-block-3" src="/Images/books-icon.png" />
+                        </p>
+                        <h3>
+                            @Html.DisplayFor(modelItem => item.DateOfUpload)
+                        </h3>
+                        <p>
+                            <a asp-action="@item.SpreadsheetName">
+
+                                <button class="btn-video-play"> <i class='bx bxs-download'></i>&nbsp;Download</button>
+                            </a>
+                        </p>
+                        <p>
+                            <a asp-controller="Spreadsheet" asp-action="Delete" asp-route-id="@item.SpreadsheetID">
+
+                                <button class="btn-video-delete"><i class='bx bxs-trash'></i>&nbsp;Delete</button>
+                            </a>
+                        </p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+</div>

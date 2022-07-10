@@ -1,0 +1,91 @@
+﻿@model ISU_By_DBugSolutions.Models.ECDCManager
+
+@{
+    ViewData["Title"] = "ECDC Manager";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ECDC Manager - Details</h1>
+<hr />
+
+<div>
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ContactNo)
+        </dd>
+        <dt class="col-sm-2">
+            Profile Image
+        </dt>
+        <dd class="col-sm-10">
+            <img src="@("~/ECDCImages/"+Model.ImageName)" asp-append-version="true" width="250" height="250" />
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.houseNo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.houseNo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.streetName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.streetName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SuburbName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SuburbName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CityName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CityName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ProvinceName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProvinceName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+
+</div>

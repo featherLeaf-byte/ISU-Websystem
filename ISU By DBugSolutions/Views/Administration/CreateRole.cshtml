@@ -1,0 +1,31 @@
+﻿@model ISU_By_DBugSolutions.Models.CreateRole
+
+@{
+    ViewData["Title"] = "Create New Role";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add New Role</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RoleName" class="control-label"></label>
+                <input asp-for="RoleName" class="form-control" />
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create Role" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<a asp-action="ListRoles"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

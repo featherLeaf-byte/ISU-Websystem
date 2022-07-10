@@ -1,0 +1,48 @@
+﻿@model EatingSchedule
+
+@{
+    ViewData["Title"] = "Eating Schedule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<img class="mb-3" src="~/Images/meal=schedule-header.png" alt="Creche List" width="300" />
+
+<div class="alert alert-secondary alert-dismissible fade show" role="alert"> Complete form and submit to add eating schedule.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+           
+            <div class="form-group">
+                <label asp-for="CrecheName" class="control-label"></label>
+                <select asp-for="CrecheName" class="form-control" asp-items="@(new SelectList(ViewBag.listCreche,"Name","Name"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="CrecheName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MealName" class="control-label"></label>
+                <select asp-for="MealName" class="form-control" asp-items="@(new SelectList(ViewBag.listMeal,"Name","Name"))">
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                <span asp-validation-for="MealName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" type="datetime" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+                <input type="submit" value="Confirm" class="btn btn-submit-1" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

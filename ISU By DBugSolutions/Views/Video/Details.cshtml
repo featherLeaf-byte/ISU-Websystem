@@ -1,0 +1,47 @@
+﻿@model ISU_By_DBugSolutions.Models.Video
+
+@{
+    ViewData["Title"] = "VideoPlayer";
+}
+<div class="container mb-4">
+    <img src="~/Images/isu-videoplayer-icon.png" width="300" alt="Video Player" />
+</div>
+
+<div class="mb-5 text-secondary">
+    <h2>
+        @Model.Title
+    </h2>
+    <h4>
+        @Model.Year
+    </h4>
+
+</div>
+<div class="wrapper">
+    <div class="vjs-big-play-centered">
+
+        <video id="my-video"
+               class="video-js"
+               controls
+               preload="auto"
+               poster="~/Images/isu-poster-icon.png"
+               data-setup='{"fluid": true}'>
+            <source src="~/Video/@(Model.VideoName)" type="video/mp4" />
+
+            <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+
+</div>
+
+<script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+<link href="vjs.zencdn.net/5.4.6/video-js.min.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>
+<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />

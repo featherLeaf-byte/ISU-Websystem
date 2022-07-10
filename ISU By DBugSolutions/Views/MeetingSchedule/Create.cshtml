@@ -1,0 +1,64 @@
+﻿@model MeetingSchedule
+
+@{
+    ViewData["Title"] = "Meeting Schedule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<img class="mb-3" src="~/Images/meeting-header.png" alt="Meetings List" width="400" />
+
+<div class="alert alert-secondary alert-dismissible fade show" role="alert"> Complete form and submit to schedule meeting.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+@if (TempData["error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert"> <strong>Uh oh!</strong> Something went wrong.... - Make sure dates and tines are correct.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="Scheduler" class="control-label"></label>
+                <input asp-for="Scheduler" class="form-control" value="@User.Identity.Name" disabled="disabled" />
+                <span asp-validation-for="Scheduler" class="text-secondary"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Venue" class="control-label"></label>
+                <input asp-for="Venue" class="form-control" />
+                <span asp-validation-for="Venue" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject" class="control-label"></label>
+                <input asp-for="Subject" class="form-control" />
+                <span asp-validation-for="Subject" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Details" class="control-label"></label>
+                <textarea asp-for="Details" class="form-control"></textarea>
+                <span asp-validation-for="Details" class="text-secondary"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StartTime" class="control-label"></label>
+                <input asp-for="StartTime" class="form-control" />
+                <span asp-validation-for="StartTime" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Meeting Duration (hours)</label>
+                <input id="hours" type="number" class="form-control" min="1" max="7" />
+                <span class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+                <input type="submit" value="Confirm" class="btn btn-submit-1" />
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

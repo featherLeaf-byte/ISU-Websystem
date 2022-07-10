@@ -1,0 +1,39 @@
+﻿@model ISU_By_DBugSolutions.Models.Surgery
+
+@{
+    ViewData["Title"] = "Surgery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-secondary">Surgery</h1>
+
+<div class="alert alert-secondary alert-dismissible fade show" role="alert"> Complete form and submit to add surgery item.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+
+            <div class="form-group">
+                <label asp-for="SurgeryName" class="control-label"></label>
+                <input asp-for="SurgeryName" class="form-control" />
+                <span asp-validation-for="SurgeryName" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+                <input type="submit" value="Confirm" class="btn btn-submit-1" />
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

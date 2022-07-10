@@ -1,0 +1,42 @@
+﻿@model EatingSchedule
+
+@{
+    ViewData["Title"] = "Eating Schedule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<img class="mb-3" src="~/Images/meal=schedule-header.png" alt="Creche List" width="300" />
+
+<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Warning!</strong> Deleted records cannot be recovered<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+
+<div>
+    <h4>Eating Schedule</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CrecheName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CrecheName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MealName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MealName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="EatingSchedID" />
+        <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+        <input type="submit" value="Delete" class="btn btn-submit-1" />
+
+    </form>
+</div>

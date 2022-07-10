@@ -1,0 +1,90 @@
+﻿@model Register
+
+@{
+
+    ViewBag.title = "User Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    
+    <div class="container"></div>
+    <div class="row ml-1 row-custom">
+        <div class="col-lg-4"><div class="registration-panel"></div></div>
+        <div class="col-8">
+            <h1 class="text-secondary">Register</h1>
+            <hr />
+            <form method="post" enctype="multipart/form-data">
+
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-secondary"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-secondary"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" class="control-label"></label>
+                    <input asp-for="PhoneNumber" type="tel" placeholder="e.g. 0874678923" pattern="[0]{1}[0-9]{9}" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class="text-secondary"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-secondary"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-secondary"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ConfirmPassword" class="control-label"></label>
+                    <input asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-secondary"></span>
+                </div>
+                <div class="form-group">
+                   
+                    <input type="radio" asp-for="Gender" name="Gender" value="M" />Male
+                    <input type="radio" asp-for="Gender" name="Gender" value="F" />Female
+                    <span asp-validation-for="Gender" class="text-secondary"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaritalStatus" class="control-label"></label>
+                    <select class="browser-default custom-select" asp-for="MaritalStatus">
+                       
+                        <option>Married</option>
+                        <option>Relationship</option>
+                        <option selected="">Single</option>
+                        <option>Divorced</option>
+                        <option>Widow</option>
+                    </select>
+                    <span asp-validation-for="MaritalStatus" class="text-secondary"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageFile" class="control-label">Upload Image</label>
+                    <div class="custom-file">
+
+                        <input asp-for="ImageFile" type="file" accept="image/*" class="custom-file-input">
+                        <label asp-for="ImageFile" class="custom-file-label">Select File</label>
+                        <span asp-validation-for="ImageFile" class="text-secondary"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-submit">Register</button>
+                </div>
+             
+            </form>
+            <div>
+                <label>Already have an account? <a asp-action="Login" asp-controller="Account">Login</a></label>
+            </div>
+
+        </div>
+
+
+    </div>
+        <div>
+        </div>

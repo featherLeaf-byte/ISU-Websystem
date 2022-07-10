@@ -1,0 +1,67 @@
+﻿@model ISU_By_DBugSolutions.Models.MedicalHistory
+
+@{
+    ViewData["Title"] = "Medical History";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<img class="mb-3" src="~/Images/med-hist-header.png" alt="Videos" width="300" />
+<hr />
+<div>
+    <h4>MedicalHistory</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PupilName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PupilName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PupilSurname)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PupilSurname)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DiseaseName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DiseaseName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SurgeryName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SurgeryName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AllergyName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AllergyName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DoctorName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DoctorName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MedicationName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MedicationName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+
+</div>

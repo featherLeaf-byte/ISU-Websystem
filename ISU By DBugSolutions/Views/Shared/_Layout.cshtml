@@ -1,0 +1,379 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <link rel="stylesheet" href="/css/custom/style.css">
+    <link rel="stylesheet" href="/css/custom/style-1.css">
+    <link rel="stylesheet" href="/css/custom/style-2.css">
+    
+    <link rel="icon" href="@Url.Content("~/fav/favicon.ico")" />
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!--Side Navigation Bar-->
+    <div class="d-none d-sm-block d-sm-none d-md-block sidebar">
+
+        <a asp-action="index" asp-controller="Home">
+            <div class="logo_content">
+                <div class="logo">
+
+                    <img class="img-logo" src="/Images/ISU003.png" alt="" />
+                    </div>
+                </div>
+        </a>
+        <i class='bx bx-menu' id="btn"></i>
+  
+        <ul class="nav_list">
+
+
+            <li>
+
+                <a asp-action="Games" asp-controller="Page">
+                    <i class='bx bx-game'></i>
+                    <span class="links_name">Games</span>
+                </a>
+                <span class="tooltip">Games</span>
+            </li>
+
+            <li>
+                <a asp-action="Index" asp-controller="Video">
+                    <i class='bx bxs-videos'></i>
+                    <span class="links_name">Videos</span>
+                </a>
+                <span class="tooltip">Videos</span>
+            </li>
+
+            <li>
+                <a asp-action="Index" asp-controller="MedicalHistory">
+                    <i class='bx bx-file'></i>
+                    <span class="links_name">Medical Records</span>
+                </a>
+                <span class="tooltip">Records</span>
+
+            </li>
+            <li>
+                <a asp-action="Index" asp-controller="PictureBooks">
+                    <i class='bx bx-book-alt'></i>
+                    <span class="links_name">Picture Books</span>
+                </a>
+                <span class="tooltip">Picture Books</span>
+            </li>
+            <li>
+                <a asp-action="Index" asp-controller="Creche">
+                    <i class='bx bx-building-house'></i>
+                    <span class="links_name">Creche</span>
+                </a>
+                <span class="tooltip">Creche</span>
+            </li>
+            <li>
+                <a asp-action="Index" asp-controller="EatingSchedule">
+                    <i class='bx bx-food-menu'></i>
+                    <span class="links_name">Food Menu</span>
+                </a>
+                <span class="tooltip">Food Menu</span>
+            </li>
+            <li>
+                <a asp-action="Index" asp-controller="Spreadsheet">
+                    <i class='bx bx-spreadsheet'></i>
+                    <span class="links_name">Spreadsheets</span>
+                </a>
+                <span class="tooltip">Spreadsheets</span>
+            </li>
+            <li>
+
+                <a asp-action="Index" asp-controller="MeetingSchedule">
+                    <i class='bx bxs-calendar'></i>
+                    <span class="links_name">Meetings</span>
+                </a>
+                <span class="tooltip">Meetings</span>
+            </li>
+            <li>
+                <a asp-action="ECDCGuide" asp-controller="Page">
+                    <i class='bx bx-notepad'></i>
+                    <span class="links_name">ECDC Guidelines</span>
+                </a>
+                <span class="tooltip">ECDC Guideliness</span>
+            </li>
+            <li>
+                <a asp-action="SafetyGuide" asp-controller="Page">
+                    <i class='bx bx-note'></i>
+                    <span class="links_name">Safety Guidlines</span>
+                </a>
+                <span class="tooltip">Safety Guidelines</span>
+            </li>
+
+        </ul>
+
+        <!--Profile Picture Section-->
+        <div class="profile_content">
+            <div class="profile">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="profile_details">
+
+                        <img src="/Images/Profile-Avatar.png" alt="">
+                        <div class="name_job">
+                            <div class="name">@User.Identity.Name</div>
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <div class="job">Admin</div>
+                            }
+                            @if (User.IsInRole("Student"))
+                            {
+                                <div class="job">Student</div>
+                            }
+                            @if (User.IsInRole("Teacher"))
+                            {
+                                <div class="job">Teacher</div>
+                            }
+                            @if (User.IsInRole("Parent"))
+                            {
+                                <div class="job">Parent</div>
+                            }
+                            @if (User.IsInRole("Provincial Liason"))
+                            {
+                                <div class="job">Provincial Liason</div>
+                            }
+                            @if (User.IsInRole("Regional Coordinator"))
+                            {
+                                <div class="job">Regional Coordinator</div>
+                            }
+
+                        </div>
+                    </div>
+
+                    <form asp-action="Logout" asp-controller="Account" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit"><i class='bx bx-log-out' id="log_out"></i></button>
+                    </form>
+
+                }
+                
+            </div>
+        </div>
+   </div>
+
+    <!--Home Content Section-->
+    <div class="home_content">
+        <div class="home_content-child">
+
+            <script>
+                let btn = document.querySelector("#btn");
+                let sidebar = document.querySelector(".sidebar");
+                let searchBtn = document.querySelector("bx-search");
+
+                btn.onclick = function () {
+                    sidebar.classList.toggle("active");
+                }
+
+            </script>
+
+            <div class="side-nav-comp">
+
+                <!--Display On Small or Extra Small Devices-->
+                <div class="d-md-none d-block d-sm-none side-nav-display">
+                    <div class="container-fluid min-nav-comp">
+                        <div class="row">
+                            <div class="col-sm-12 md-3 min-nav-item" id="#item">
+                                <a href="#">
+                                    <div class="background-item">
+                                        <i onclick="displayContent()" class='bx bx-menu' id="#menuIcon"></i>
+                                        <div onclick="hideContent()" class='closeIcon' id="#closeIcon">
+                                            &#x2715
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-1">
+                                <a asp-action="Index" asp-controller="Home">
+                                    <div class="background-item">
+                                        <i class='bx bx-home'></i>
+                                        <span class="nav-links_name">Home</span>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-2">
+                                <a asp-action="Games" asp-controller="Page">
+                                    <div class="background-item">
+                                        <i class='bx bx-game'></i>
+                                        <span class="nav-links_name">Games</span>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-3">
+                                <a asp-action="Index" asp-controller="Video">
+                                    <div class="background-item">
+                                        <i class='bx bxs-videos'></i>
+                                        <span class="nav-links_name">Videos</span>
+                                    </div>
+                                </a>
+                            </div>
+                           
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-4">
+                                <a asp-action="Index" asp-controller="MedicalHistory">
+                                    <div class="background-item">
+                                        <i class='bx bx-file'></i>
+                                        <span class="nav-links_name">Medical Records</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-5">
+                                <a asp-action="Index" asp-controller="PictureBooks">
+                                    <div class="background-item">
+                                        <i class='bx bx-book-alt'></i>
+                                        <span class="nav-links_name">Picture Books</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-6">
+                                <a asp-action="Index" asp-controller="Creche">
+                                    <div class="background-item">
+                                        <i class='bx bx-building-house'></i>
+                                        <span class="nav-links_name">Creche</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-7">
+                                <a asp-action="Index" asp-controller="EatingSchedule">
+                                    <div class="background-item">
+                                        <i class='bx bx-food-menu'></i>
+                                        <span class="nav-links_name">Food Menu</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-8">
+    <a asp-action="Index" asp-controller="MeetingSchedule">
+        <div class="background-item">
+            <i class='bx bxs-calendar'></i>
+            <span class="nav-links_name">Meetings</span>
+        </div>
+    </a>
+</div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-9">
+                                <a asp-action="Index" asp-controller="Spreadsheet">
+                                    <div class="background-item">
+                                        <i class='bx bx-spreadsheet'></i>
+                                        <span class="nav-links_name">Spreadsheets</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-10">
+                                <a asp-action="ECDCGuide" asp-controller="Page">
+                                    <div class="background-item">
+                                        <i class='bx bx-file'></i>
+                                        <span class="nav-links_name">ECDC Guidelines</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-12 md-3 min-nav-item min-nav" id="#item-11">
+                                <a asp-action="SafetyGuide" asp-controller="Page">
+                                    <div class="background-item">
+                                        <i class='bx bx-note'></i>
+                                        <span class="nav-links_name">Safety Guidelines</span>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="spinner" style="display:none">
+                <div class="center-div">
+                    <div class="inner-div">
+                        <div class="loader"></div>
+                    </div>
+                </div>
+            </div>
+            <main>
+                <div class="container container-custom pt-4 pt-sm-2">
+                    @RenderBody()
+                   
+                </div>
+            </main>
+
+
+        </div>
+    </div>
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+
+            <div class="row text-center d-flex justify-content-center pt-3 mb-1">
+
+
+                <div class="col-md-2 mb-">
+                    <h6 class="footer-link">
+                        <a asp-action="AboutUs" asp-controller="Page">
+                            <i class='bx bxs-note'></i>
+                            About us
+                        </a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-1">
+                    <h6 class="footer-link">
+                        <a asp-action="Help" asp-controller="Page">
+                            <i class='bx bx-help-circle'></i>
+                            Help
+                        </a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-1">
+                    <h6 class="footer-link">
+                        <a asp-action="ContactUs" asp-controller="Page">
+                            <i class='bx bx-phone'></i>
+                            Contact
+                        </a>
+                    </h6>
+                </div>
+                <div class="col-md-2 mb-1">
+                    <h6 class="footer-link">
+                        <a asp-action="Create" asp-controller="Enquiry">
+                            <i class='bx bx-comment'></i>
+                            Feedback
+                        </a>
+                    </h6>
+                </div>
+                <div class="col-md-12 mb-1">
+                    <h6 class="footer-link">
+                        
+                            <img src="/Images/footer-logo.png" width="150"/>
+                    
+                    </h6>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/signalr/signalr.js"></script>
+    <script src="~/lib/jquery/dist/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/js/chat.js"></script>
+    <script src="~/js/signrReqHandler.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

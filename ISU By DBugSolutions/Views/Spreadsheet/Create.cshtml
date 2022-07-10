@@ -1,0 +1,44 @@
+﻿@model ISU_By_DBugSolutions.Models.Spreadsheet
+
+@{
+    ViewData["Title"] = "Spreadsheet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Spreadsheet</h1>
+
+<div class="alert alert-secondary alert-dismissible fade show" role="alert"> Complete form and submit to add spreadsheet.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+          
+            <div class="form-group">
+                <label asp-for="SheetName" class="control-label"></label>
+                <input asp-for="SheetName" class="form-control" />
+                <span asp-validation-for="SheetName" class="text-secondary"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpreadsheetFile" class="control-label"></label>
+                <div class="custom-file">
+
+                    <input asp-for="SpreadsheetFile" type="file" class="custom-file-input" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+                    <label id="#Selectedfile" asp-for="SpreadsheetFile" class="custom-file-label">Select File</label>
+                    <span asp-validation-for="SpreadsheetFile" class="text-secondary"></span>
+
+                </div>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+                <input type="submit" value="Confirm" class="btn btn-submit-1" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

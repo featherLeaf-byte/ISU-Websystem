@@ -1,0 +1,61 @@
+﻿@model Login
+
+@{
+    ViewBag.Title = "User Login";
+}
+
+
+
+<div class="container pt-5">
+    
+    <div class="col-md-12 mt-lg-5">
+        @if (TempData["logout"] != null)
+        {
+
+            <div class="alert alert-success alert-dismissible fade show" role="alert">Successfully logged out!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+        }
+        <form method="post">
+            <div class="form-group">
+                <div class="container container-login">
+                    <div class="container-header"><h1>Welcome</h1></div>
+
+                    <div class="imgcontainer form-group">
+                        <img src="/Images/Profile-Avatar.png" alt="Avatar" class="avatar">
+                    </div>
+
+                    <div class="container">
+                        <div class="form-group">
+                            <label asp-for="Email" class="label-custom">Username</label>
+                            <input asp-for="Email" type="text" placeholder="Enter Username">
+                            <span asp-validation-for="Email" class="text-secondary"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Password" class="label-custom">Password</label>
+                            <input asp-for="Password" placeholder="Enter Password">
+                            <span asp-validation-for="Password" class="text-secondary"></span>
+                        </div>
+
+                        <button id="#btnSubmit" type="submit" class="button-login">Login</button>
+
+                        <div class="checkbox">
+                            <label asp-for="RememberMe">
+                                <input asp-for="RememberMe" />
+                                @Html.DisplayNameFor(m => m.RememberMe)
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <a asp-action="Register" asp-controller="Account" class="button-link">
+                            <button type="button" class="cancelbtn">
+                                Sign Up
+                            </button>
+                        </a>
+                        <span class="psw"><a asp-action="ForgotPassword" asp-controller="Account">Forgot password?</a></span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

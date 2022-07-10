@@ -1,0 +1,40 @@
+﻿@model ISU_By_DBugSolutions.Models.Video
+
+@{
+    ViewData["Title"] = "Video";
+}
+
+<img class="mb-3" src="~/Images/videos-header.png" alt="Videos" width="300" />
+
+<div class="alert alert-secondary alert-dismissible fade show" role="alert"> Complete form and submit to add video.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VideoFile" class="control-label">Upload Video</label>
+                <div class="custom-file">
+
+                    <input asp-for="VideoFile" type="file" class="custom-file-input" accept="video/mp4">
+                    <label asp-for="VideoFile" class="custom-file-label">Select File</label>
+                    <span asp-validation-for="VideoFile" class="text-secondary"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index"><img src="~/Images/back-icon.png" alt="back" style="width:35px;" class="mr-1" /></a>
+                <input type="submit" value="Confirm" class="btn btn-submit-1" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

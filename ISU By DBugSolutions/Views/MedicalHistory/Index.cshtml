@@ -1,0 +1,135 @@
+﻿@model IEnumerable<ISU_By_DBugSolutions.Models.MedicalHistory>
+
+@{
+    ViewData["Title"] = "Medical History";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Pager pager = new Pager();
+    int pageNo = 0;
+
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+    int intSno = 0;
+}
+
+<img class="mb-3" src="~/Images/med-hist-header.png" alt="Videos" width="300" />
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert"> <strong>Success!</strong> Record Successfully added.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+}
+<p class="h4">
+    <a asp-action="Create" class="text-secondary"><i class="bx bxs-plus-square h1 shake"></i><span class="badge badge-secondary h1 bg-anim">Add New</span></a>
+</p>
+<hr />
+<div class="col-4 p-0 justify-content-end">
+    <form asp-controller="MedicalHistory" asp-action="Index" class="form-inline">
+        <input class="form-control mr-sm-2" type="text" name="SearchText" placeholder="Search..." />
+        <button class="btn btn-submit my-2 my-sm-0" type="submit" value="Search">
+            Search
+        </button>
+    </form>
+</div>
+<table class="table">
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            intSno = intSno + 1;
+            <tr>
+                <td>
+                    <div class="info-block-2 bg-dark">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-9 text-light pl-5">
+
+                                    <h3 class="text-secondary">
+                                        @Html.DisplayFor(modelItem => item.PupilName) &nbsp;
+                                        @Html.DisplayFor(modelItem => item.PupilSurname)
+                                    </h3>
+
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.Date): &nbsp; @Html.DisplayFor(modelItem => item.Date)
+                                    </p>
+
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.DiseaseName): &nbsp; @Html.DisplayFor(modelItem => item.DiseaseName)
+                                    </p>
+
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.SurgeryName): &nbsp; @Html.DisplayFor(modelItem => item.SurgeryName)
+                                    </p>
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.AllergyName): &nbsp; @Html.DisplayFor(modelItem => item.AllergyName)
+                                    </p>
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.DoctorName): &nbsp; @Html.DisplayFor(modelItem => item.DoctorName)
+                                    </p>
+                                    <p>
+                                        @Html.DisplayNameFor(model => model.MedicationName): &nbsp;@Html.DisplayFor(modelItem => item.MedicationName)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MedHistID" class="text-primary h2"><i class='bx bxs-edit'></i></a>
+                    <a asp-action="Details" asp-route-id="@item.MedHistID" class="text-secondary h2"><i class='bx bx-list-ul'></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.MedHistID" class="text-danger h2"><i class='bx bx-trash'></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{Html.BeginForm("CreateDocument", "MedicalHistory", FormMethod.Get);
+    {
+        <div>
+            <button type="submit" value="Create Document" class="btn-video-play"> <i class='bx bxs-printer'></i>&nbsp;Print</button>
+
+        </div>
+    }
+    Html.EndForm();
+}
+
+
+
+
+<div class="container">
+    @if (pager.TotalPages > 0)
+    {
+        <ul class="pagination justify-content-end">
+
+            @if (pager.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-controller="MedicalHistory" asp-action="Index" asp-route-pg="1">First</a>
+                </li>
+                <li>
+                    <a class="page-link" asp-controller="MedicalHistory" asp-action="Index" asp-route-pg="@(pager.CurrentPage-1)">Previous</a>
+                </li>
+            }
+
+
+
+            @for (var pge = pager.StartPage; pge <= pager.EndPage; pge++)
+            {
+                <li class="page-item @(pge == pager.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-controller="MedicalHistory" asp-action="Index" asp-route-pg="@pge">@pge</a>
+                </li>
+            }
+
+            @if (pager.CurrentPage < pager.TotalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-controller="MedicalHistory" asp-action="Index" asp-route-pg="@(pager.CurrentPage+1)">Next</a>
+                </li>
+                <li>
+                    <a class="page-link" asp-controller="MedicalHistory" asp-action="Index" asp-route-pg="@(pager.TotalPages)">Last</a>
+                </li>
+            }
+        </ul>
+    }
+</div>
